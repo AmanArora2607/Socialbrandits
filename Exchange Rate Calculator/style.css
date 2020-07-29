@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.currency{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.currency input{
+    background: transparent;
+    border: 0;
+    text-align: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
